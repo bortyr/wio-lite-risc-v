@@ -34,9 +34,6 @@ riscv-nuclei-elf-objcopy -O binary target/riscv32imac-unknown-none-elf/release/b
 
 2) Flash using `dfu-util`:
 
-Keep the BOOT0 button pressed while power-up or while pressing and releaseing the reset button. Then 
-run 
-
 ```sh
 dfu-util -a 0 -s 0x08000000:leave -D firmware.bin
 ```
