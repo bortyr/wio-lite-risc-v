@@ -1,5 +1,5 @@
 [package]
-name = "wio-lite-riscv"
+name = "wio-lite-risc-v"
 version = "0.1.0"
 authors = ["bortyr <bt324@pm.me>"]
 edition = "2018"

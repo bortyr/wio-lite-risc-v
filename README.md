@@ -2,7 +2,7 @@
 
 > Quick start with the Wio Lite RISC-V board
 
-![Wio-Lite-RISCV](wio-lite-riscv.png)
+![Wio-Lite-RISC-V](wio-lite-risc-v.png)
 
 ## Quickstart
 
@@ -41,4 +41,5 @@ dfu-util -a 0 -s 0x08000000:leave -D firmware.bin
 ## References
 
 https://github.com/riscv-rust/longan-nano
+
 https://www.sigmdel.ca/michel/ha/gd32v/wio_lite_01_en.html
